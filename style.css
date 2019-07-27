@@ -1,18 +1,13 @@
-body{
-    background-image: url("https://cdn1.bigcommerce.com/server4500/1ede4/product_images/uploaded_images/7-train-animal-jul30.jpg?t=1478035627");
-    background-repeat: no-repeat; 
-    background-size: 1700px;
+#background{
+  background-color: rgb(0, 0, 0);
 }
-
-
-
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: auto;
-    background-color: rgba(199, 206, 141, 0.548)
+    background-color: rgba(43, 58, 105, 0.548)
   }
   
   li {
@@ -30,32 +25,40 @@ ul {
   li a:hover:not(.active) {
     background-color: rgba(47, 97, 155, 0.459);
   }
-  h2{
-text-align: center;
-font-size: 50px;
-color: yellow;
-background-color: none;
-margin: 10px;
-
-  }
-.abouttext{    
-    background-color: rgba(80, 77, 77, 0.432) ;
-    text-align: center;  
-    color: rgb(218, 78, 36);  
-font-size: 30px;
-margin-top: 20px; 
-position: absolute;
-left: 0;
-top: 50%;
-width: 100%;
-text-align: center;
-
-
+.image1 {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/1080p-HD-Nature-Wallpaper.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
-/* width: 150px;
-height: 150px; */
-/* 
-  button{
-      
-  } */
+@media (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+h2{
+  margin: 0px;
+  text-align: center;
+}
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.829);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  font-size: 15px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
