@@ -32,9 +32,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
-
 @media (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
@@ -45,9 +43,6 @@ h2{
   margin: 0px;
   text-align: center;
 }
-
-
-
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.829);
