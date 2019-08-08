@@ -33,11 +33,6 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-}
 
 h2{
   margin: 0px;
