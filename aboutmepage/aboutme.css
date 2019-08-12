@@ -38,14 +38,15 @@
     text-align: center;
   }
   
-  .card2 {
+  .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.829);
     max-width: 300px;
     margin: auto;
     text-align: center;
     font-family: arial;
     font-size: 15px;
-    margin-left: 0%;
+    margin-top: 50px;
+    margin-left: 30px;
   }
   
   .title {
@@ -57,4 +58,7 @@
     .parallax {
       background-attachment: scroll;
     }
+}
+.container{
+  float: left;
 }
