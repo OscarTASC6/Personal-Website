@@ -1,0 +1,96 @@
+#background{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: auto;
+      background-color: rgba(43, 58, 105, 0.548)
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: rgba(47, 97, 155, 0.459);
+    }
+  .image1 {
+    background-image: url("https://i.pinimg.com/originals/09/6a/35/096a35453660aa9b83ba4ab6d9182d61.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h2{
+    margin: 0px;
+    text-align: center;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+
+  /* Style all font awesome icons */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-github {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram{
+ 
+    background: #125688;
+    color: white;
+    
+  }
+
+  .fa-linkedin{
+    background: #007bb5;
+    color: white;
+  }
